@@ -10,4 +10,5 @@ public interface IProfDao {
 	void creerProf(final Prof pProf);
 	void supprimerProf(final Prof pProf);
 	void modifierProf(final Prof pProf);
+	Prof rechercherIdProf(Integer IdProf);
 }

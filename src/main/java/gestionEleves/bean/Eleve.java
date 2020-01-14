@@ -34,7 +34,7 @@ public class Eleve {
 	private Date dateNaissance;
 	
 	@Column(name="sexe", nullable=false)
-	private String sexe;
+	private Sexe sexe;
 	
 	@ManyToOne
 	@JoinColumn(name="classe", nullable=false)
@@ -80,11 +80,11 @@ public class Eleve {
 		this.dateNaissance = dateNaissance;
 	}
 
-	public String getSexe() {
+	public Sexe getSexe() {
 		return sexe;
 	}
 
-	public void setSexe(String sexe) {
+	public void setSexe(Sexe sexe) {
 		this.sexe = sexe;
 	}
 

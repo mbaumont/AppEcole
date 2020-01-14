@@ -4,10 +4,14 @@ import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 @Entity
 @Table(name="t_prof")
@@ -29,10 +33,12 @@ public class Prof {
 	private String adresse;
 	
 	@Column(name="date_naissance", nullable=false)
+	@Temporal(TemporalType.TIMESTAMP)
 	private Date dateNaissance;
 	
-	@Column(name="sexe", nullable=false)
-	private String sexe;
+	@Column(name="sexe", nullable=false,columnDefinition = "enum('HOMME', 'FEMME')")
+	@Enumerated(EnumType.STRING)
+	private Sexe sexe;
 
 	public Integer getId() {
 		return id;
@@ -74,11 +80,11 @@ public class Prof {
 		this.dateNaissance = dateNaissance;
 	}
 
-	public String getSexe() {
+	public Sexe getSexe() {
 		return sexe;
 	}
 
-	public void setSexe(String sexe) {
+	public void setSexe(Sexe sexe) {
 		this.sexe = sexe;
 	}
 	

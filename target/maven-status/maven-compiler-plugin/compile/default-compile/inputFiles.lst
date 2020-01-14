@@ -1,10 +1,14 @@
-C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\dao\IProfService.java
 C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\bean\Notes.java
 C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\dao\IProfDao.java
 C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\bean\Eleve.java
 C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\bean\Classe.java
-C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\bean\Trimestre.java
-C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\controller\SupprimerProfController.java
 C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\bean\Prof.java
 C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\dao\profDao.java
+C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\controller\CreerProfController.java
+C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\controller\CreationProfForm.java
+C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\bean\Sexe.java
+C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\dao\IProfService.java
+C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\dao\profService.java
+C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\bean\Trimestre.java
+C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\controller\SupprimerProfController.java
 C:\Users\Formation\eclipse-workspace\AppEcole\src\main\java\gestionEleves\bean\Matiere.java
