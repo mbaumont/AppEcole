@@ -1,5 +1,6 @@
 package gestionEleves.controller;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
@@ -93,6 +94,5 @@ public class ClasseController {
 		return "modificationClasse";
 	}
 	
-	
-	
+
 }
